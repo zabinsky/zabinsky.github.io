@@ -1,1 +1,1 @@
-# zabinsky-github.io
+# zabinsky.github.io

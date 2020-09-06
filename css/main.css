@@ -41,4 +41,17 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-Don't forget to commit the new CSS 
+.container {
+    clear: both;
+    display: flex; /* equal height of the children */
+    flex-wrap: nowrap;
+    align-content: left;
+}
+.blurb {
+    padding: .8em;
+    flex: 1; /* additionally, equal width */
+    flex-shrink: 1;
+    flex-grow: 1;
+    min-width: 360px;
+    max-width: 2448px;
+}

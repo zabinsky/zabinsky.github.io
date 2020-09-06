@@ -9,12 +9,19 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    float: left;
+    align-content: left;
 }
 nav ul li, footer ul li {
-    display: inline;
+    flex: 1;
     margin-right: 20px;
 }
 a {
+    font-size: 1.5em;
+    line-height: 1.4em;
     text-decoration: none;
     color: #999;
 }
@@ -31,15 +38,14 @@ p {
     color: #333;
 }
 footer {
+    clear: both;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
-
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
 }
-
 ul.posts li {
     list-style: none;
 }

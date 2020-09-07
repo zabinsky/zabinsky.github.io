@@ -52,7 +52,7 @@ ul.posts li {
 .container {
     clear: both;
     display: flex; /* equal height of the children */
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: left;
 }
 .blurb {
